@@ -1,7 +1,11 @@
 package com.yahyafati;
 
+import com.yahyafati.problems.IProblem;
+import com.yahyafati.problems.OneDArray;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        IProblem problem = new OneDArray();
+        problem.solve();
     }
 }
